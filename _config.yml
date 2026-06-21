@@ -1,0 +1,28 @@
+title: Travel Media Brief
+description: Analysis of the travel media landscape, covering platform changes, tourism marketing, creator partnerships, and the industry forces shaping travel publishing.
+url: "https://travelmediabrief.com"
+baseurl: ""
+lang: en
+permalink: /:title/
+substack_url: https://travelmediabrief.substack.com/
+google_analytics: G-849LR6X9GN
+
+collections:
+  topics:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: topic
+
+markdown: kramdown
+plugins: []
